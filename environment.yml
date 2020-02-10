@@ -1,0 +1,11 @@
+name: pacemakers
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - jupyter
+  - torchvision
+  - ignite
+  - ipykernel
+  - matplotlib
+  - python=3.7
