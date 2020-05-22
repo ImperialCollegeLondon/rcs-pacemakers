@@ -22,7 +22,7 @@ To run the notebook in Jupyter (P1000):
 1. Create a new server (GPU recommended)
 1. Open `pacemakers.ipynb` and run the notebook
 
-To run the notebook as a job (K80):
+To run the notebook as a job (P100):
 
 1. `qsub pacemakers.pbs.sh`
 1. On job completion visit the [RCS Jupyter Service](https://jupyter.rcs.imperial.ac.uk/)
