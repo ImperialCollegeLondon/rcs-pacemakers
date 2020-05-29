@@ -28,6 +28,10 @@ To run the notebook as a job (P100):
 1. On job completion visit the [RCS Jupyter Service](https://jupyter.rcs.imperial.ac.uk/)
 1. Open `pacemakers.ipynb` and review the outputs
 
+### Multi-GPU execution
+
+This repository has two branches. The `master` branch (the default) targets a single GPU. The [`multi-gpu`](https://github.com/ImperialCollegeLondon/rcs-pacemakers/tree/multi-gpu) branch uses [`DataParallel`](https://pytorch.org/tutorials/beginner/blitz/data_parallel_tutorial.html) to target two GPUs. You can see the relevant modifications by [comparing the branches](https://github.com/ImperialCollegeLondon/rcs-pacemakers/compare/multi-gpu).
+
 ## Acknowledgements
 
 Many thanks to [James Howard](http://www.jamesphoward.com/) for sharing his work and reviewing these instructions.
